@@ -1,0 +1,230 @@
+body,
+div,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+form,
+input,
+table,
+th,
+td,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-family: "Microsoft Yahei";
+}
+
+p {
+    line-height: 1.6
+}
+
+h1,
+h2,
+h3 {
+    line-height: 2
+}
+
+em,
+b,
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cc0000;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfiix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* 属性重置 */
+
+/* topline */
+
+.topline {
+    height: 3px;
+    background-color: red;
+}
+
+.top {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.toplogo {
+    float: left;
+    width: 110px;
+    height: 80px;
+    background: url(images/logo.png) no-repeat;
+}
+
+.nav {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav a {
+    height: 80px;
+    padding: 0 20px;
+    float: left;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+/* bannerbox */
+
+.bannerbox {
+    height: 490px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bannerbox h1 {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: -280px;
+    font-weight: normal;
+}
+
+.hd {
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hd li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 12px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hd li:hover {
+    background-color: red;
+}
+
+/* service tab */
+
+.service {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.toptit {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    color: red;
+
+}
+
+.subtit {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.servicetab {
+    margin-top: 35px;
+    margin-left: -100px;
+    
+}
+
+.tab-icon {
+    width: 102px;
+    height: 102px;
+    float: left;
+    margin-top: 32px;
+    background: url(images/service-icon.png) no-repeat 1px -102px;
+    margin-left: px;
+}
+.tab-icon2{width: 102px;
+    height: 102px;
+    float: left;
+    margin-top: 32px;
+    background: url(images/service-icon.png) no-repeat -100px -102px;
+    margin-left: 100px;
+}
+.tab-icon3{ }
+.tab-icon4{height: 102px;
+    width: 102px;
+    float: left;
+    margin-top: 32px;
+    background: url(images/service-icon.png) no-repeat -300px -102px;}
+
+.maininfo {
+    padding-top: 50px;
+    padding-left: 15px;
+    line-height: 2;
+    float: left;
+    width: 320px;
+}
+
+.info-tit {
+    font-size: 16px;
+}
