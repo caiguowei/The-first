@@ -336,4 +336,13 @@ table {
 .btn-left{width: 21px;height: 21px;float: left;background: url(images/scroll2.png) no-repeat;}
 .btn-right{width: 21px;height: 21px;float: right;background: url(images/scroll2.png) 21px 0;}
 
+.newsabout{width: 1000px;margin: 65px auto 0 auto;background-color: #f0f2f4;padding-bottom: 52px;}
+.news-tab{float: left;padding-right: 58px;width: 525px;}
+.news-tit h1{float: left; font-size: 24px;line-height: 1;font-weight: normal;}
+.news-tit a{font-size: 14px;margin-top: 8px;margin-left: 8px;float: left;color: #666666;}
+.news-tab li{margin-top: 26px;float: left;}
+.news-tab h2{font-size: 14px;color: #666666;}
+.news-tab p{font-size: 12px;color: #666666;}
+.news-tab li a{line-height: 22px;}
+.onlineMessage{margin-top: 50px;border-left: 1px solid #ababab;height: 185px;float: left;padding-left: 42px;}
     
