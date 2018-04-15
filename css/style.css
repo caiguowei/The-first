@@ -373,6 +373,7 @@ table {
 .above4 .icon-location{width: 18px;height: 18px;background: url(images/icon-footer2.png) -36px 0 no-repeat;display: inline-block;}
 .above4 .icon-leave{width: 18px;height: 18px;background: url(images/icon-footer2.png) -54px 0 no-repeat;display: inline-block;}
 .above4 i{margin-bottom: -3px;}
+/* the end */
 /* copyright */
 .footer-below{background-color: #101010; height: 44px;text-align: center;}
 .footer-below .copyright{padding-top: 16px;}
