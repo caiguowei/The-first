@@ -24,7 +24,7 @@ h6 {
 }
 
 body {
-    background: #fff;
+    
     color: #000;
     font-size: 12px;
     font-style: normal;
@@ -70,6 +70,7 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
 }
+
 
 /*清除浮动*/
 
@@ -280,11 +281,13 @@ table {
 /* the service end */
 
 /* project */
+.project-newsabout{background-color:#f0f2f4;margin: 0 auto;}
 
 .project-wrap {
+    
     width: 1000px;
     margin: 3px auto 0 auto;
-    background-color: #f0f2f4;
+   
     overflow: hidden;
 }
 
@@ -332,11 +335,13 @@ table {
     margin-bottom: 30px;
     
 }
+
+
 .img-btn{width: 66px;height: 21px;margin:  0 auto;overflow: hidden;}
 .btn-left{width: 21px;height: 21px;float: left;background: url(images/scroll2.png) no-repeat;}
 .btn-right{width: 21px;height: 21px;float: right;background: url(images/scroll2.png) 21px 0;}
 
-.newsabout{width: 1000px;margin: 65px auto 0 auto;background-color: #f0f2f4;padding-bottom: 52px;}
+.newsabout{width: 1000px;margin: 52px auto 0;padding-bottom: 52px;overflow: hidden;}
 .news-tab{float: left;padding-right: 58px;width: 525px;}
 .news-tit h1{float: left; font-size: 24px;line-height: 1;font-weight: normal;}
 .news-tit a{font-size: 14px;margin-top: 8px;margin-left: 8px;float: left;color: #666666;}
@@ -345,4 +350,30 @@ table {
 .news-tab p{font-size: 12px;color: #666666;}
 .news-tab li a{line-height: 22px;}
 .onlineMessage{margin-top: 50px;border-left: 1px solid #ababab;height: 185px;float: left;padding-left: 42px;}
+.onlineMessage p{font-size: 12px;line-height: 26px;}
+.onlineMessage h3{font-size: 24px;font-weight: normal;}
+.onlineMessage h3 b{color: #db0000;font-weight: normal;}
+.onlineMessage .message{width: 125px;height: 45px;background-color: #69ba07;border-radius: 3px;}
+
+.message .button{width: 96px; background: url(images/message.png) 10px 10px no-repeat;font-size: 16px;float: left;color: #f0f2f4;text-shadow: 2px 2px 0 3px rgba(12,2,3,.29);padding-left: 40px;padding-top: 10px;}
+
+/* footer */
+
+.footer{background-color: #222222;}
+.footer-above{width: 1000px;margin: 0 auto;overflow: hidden;}
+.footer-above ul{float:left;margin-bottom: 54px;}
+.footer-above ul li{line-height: 24px;}
+.above-tit{font-size: 16px;padding-top: 25px;}
+.footer-above .above2{margin-left: 115px;}
+.footer-logo{width: 103px;height: 33px;margin: 80px auto;background: url(images/footer-logo1.png) no-repeat;float: left;margin-left: 182px;margin-right: 104px;}
+.above4{margin-left: 67px;}
+.above4 .above-tit{color: #ff0000;margin-bottom: 4px;}
+.above4 .icon-phone{width: 18px;height: 18px;background: url(images/icon-footer2.png)  no-repeat;display: inline-block;}
+.above4 .icon-facsimile{width: 18px;height: 18px;background: url(images/icon-footer2.png) -18px 0 no-repeat;display: inline-block;}
+.above4 .icon-location{width: 18px;height: 18px;background: url(images/icon-footer2.png) -36px 0 no-repeat;display: inline-block;}
+.above4 .icon-leave{width: 18px;height: 18px;background: url(images/icon-footer2.png) -54px 0 no-repeat;display: inline-block;}
+.above4 i{margin-bottom: -3px;}
+.footer-below{background-color: #101010; height: 44px;text-align: center;}
+.footer-below .copyright{padding-top: 16px;}
+
     
